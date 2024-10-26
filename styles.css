@@ -1,0 +1,135 @@
+.container{
+    width: 100%;
+    margin:0%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.flex-heading{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.flex-heading > * {
+    margin-right: 20px; 
+}
+
+.flex-heading > *:last-child {
+    margin-right: 0;
+
+}
+
+.table-part-1 table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.table-part-1 td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.table-part-2 table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.table-part-2 td{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between; 
+}
+.table-part-2 table td input[type="checkbox"] {
+    width: 20px;
+    height: 20px; 
+}
+
+.table-part-3 table{
+    width:100%;
+    border-collapse: collapse;
+}
+.table-part-3 td{
+    border: 1px solid black;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+
+.table-part-4 table{
+    width:100%;
+    border-collapse: collapse;
+}
+.table-part-4 th{
+    border: 1px solid black;
+}
+.table-part-4 table td input[type="checkbox"] {
+    width: 20px;
+    height: 20px; 
+}
+.table-part-4 td{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.table-part-6 table{
+    width:100%;
+    border-collapse: collapse;
+}
+.table-part-6 th{
+    border: 1px solid black;
+    width: 33.33%;
+    text-align: left;
+    padding: 10px;
+}
+
+.table-part-6 table td input[type="checkbox"] {
+    width: 20px;
+    height: 20px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .header p,img {
+        width: 60%;
+    }
+    .table-part-1 table{
+        border-collapse: collapse; 
+    }
+    .table-part-1 th, .table-part-1 td {
+        border: 1px solid black;
+        text-align: center;
+        vertical-align: middle;
+        padding: 10px;
+    }
+    .table-part-5 table{
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+    .table-part-5 th{
+        border: 1px solid black;
+        width:50%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .table-part-6 table{
+        border-collapse: collapse;
+    }
+    .table-part-6 th,td{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .footer{
+        font-size:15px;
+    }
+}
+
+
+
+
